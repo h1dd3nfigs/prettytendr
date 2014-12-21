@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<node>
+		<post_title><![CDATA[Woo Logo]]></post_title>
+		<post_name><![CDATA[woo-logo]]></post_name>
+		<id><![CDATA[15]]></id>
+		<post_excerpt><![CDATA[Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.]]></post_excerpt>
+		<post_content><![CDATA[Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.]]></post_content>
+		<post_status><![CDATA[publish]]></post_status>
+		<menu_order><![CDATA[0]]></menu_order>
+		<post_date><![CDATA[06/07/13 10:35 AM]]></post_date>
+		<post_parent><![CDATA[0]]></post_parent>
+		<comment_status><![CDATA[open]]></comment_status>
+		<sku><![CDATA[]]></sku>
+		<downloadable><![CDATA[no]]></downloadable>
+		<virtual><![CDATA[no]]></virtual>
+		<visibility><![CDATA[visible]]></visibility>
+		<stock><![CDATA[5]]></stock>
+		<stock_status><![CDATA[instock]]></stock_status>
+		<backorders><![CDATA[no]]></backorders>
+		<manage_stock><![CDATA[yes]]></manage_stock>
+		<regular_price><![CDATA[20]]></regular_price>
+		<sale_price><![CDATA[18]]></sale_price>
+		<weight><![CDATA[]]></weight>
+		<length><![CDATA[]]></length>
+		<width><![CDATA[]]></width>
+		<height><![CDATA[]]></height>
+		<tax_status><![CDATA[]]></tax_status>
+		<tax_class><![CDATA[]]></tax_class>
+		<upsell_ids><![CDATA[60]]></upsell_ids>
+		<crosssell_ids><![CDATA[]]></crosssell_ids>
+		<featured><![CDATA[no]]></featured>
+		<sale_price_dates_from><![CDATA[]]></sale_price_dates_from>
+		<sale_price_dates_to><![CDATA[]]></sale_price_dates_to>
+		<file_path><![CDATA[]]></file_path>
+		<file_paths><![CDATA[]]></file_paths>
+		<download_limit><![CDATA[]]></download_limit>
+		<download_expiry><![CDATA[]]></download_expiry>
+		<product_url><![CDATA[]]></product_url>
+		<button_text><![CDATA[]]></button_text>
+		<meta_yoast_wpseo_focuskw><![CDATA[]]></meta_yoast_wpseo_focuskw>
+		<meta_yoast_wpseo_title><![CDATA[]]></meta_yoast_wpseo_title>
+		<meta_yoast_wpseo_metadesc><![CDATA[]]></meta_yoast_wpseo_metadesc>
+		<meta_yoast_wpseo_metakeywords><![CDATA[]]></meta_yoast_wpseo_metakeywords>
+		<images_front><![CDATA[http://demo2.woothemes.com/woocommerce/files/2013/06/T_1_front.jpg]]></images_front>
+		<images_back><![CDATA[http://demo2.woothemes.com/woocommerce/files/2013/06/T_1_back.jpg]]></images_back>
+		<taxproduct_type><![CDATA[simple]]></taxproduct_type>
+		<taxproduct_cat><![CDATA[Clothing|T-shirts]]></taxproduct_cat>
+		<taxproduct_tag><![CDATA[]]></taxproduct_tag>
+		<taxproduct_shipping_class><![CDATA[]]></taxproduct_shipping_class>
+		<metatotal_sales><![CDATA[0]]></metatotal_sales>
+		<attributepa_color><![CDATA[]]></attributepa_color>
+		<attribute_datapa_color><![CDATA[]]></attribute_datapa_color>
+		<attribute_defaultpa_color><![CDATA[]]></attribute_defaultpa_color>
+	</node>

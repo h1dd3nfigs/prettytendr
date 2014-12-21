@@ -1,0 +1,417 @@
+<ItemSearchResponse xmlns="http://webservices.amazon.com/AWSECommerceService/2011-08-01">
+<OperationRequest>...</OperationRequest>
+<Items>
+<Request>
+<IsValid>True</IsValid>
+<ItemSearchRequest>
+<Keywords>Aubrey Organics</Keywords>
+<ResponseGroup>Medium</ResponseGroup>
+<SearchIndex>Beauty</SearchIndex>
+</ItemSearchRequest>
+</Request>
+<TotalResults>650</TotalResults>
+<TotalPages>65</TotalPages>
+<MoreSearchResultsUrl>
+http://www.amazon.com/gp/redirect.html?camp=2025&creative=386001&location=http%3A%2F%2Fwww.amazon.com%2Fgp%2Fsearch%3Fkeywords%3DAubrey%2BOrganics%26url%3Dsearch-alias%253Dbeauty&linkCode=xm2&tag=s0cb54-20&SubscriptionId=AKIAJASCQOZYRQT3ISNA
+</MoreSearchResultsUrl>
+<Item>
+<ASIN>B0006GZAKI</ASIN>
+<ParentASIN>B00CX1TG40</ParentASIN>
+<DetailPageURL>
+http://www.amazon.com/Aubrey-Organics-Honeysuckle-Moisturizing-Shampoo/dp/B0006GZAKI%3FSubscriptionId%3DAKIAJASCQOZYRQT3ISNA%26tag%3Ds0cb54-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3DB0006GZAKI
+</DetailPageURL>
+<ItemLinks>
+<ItemLink>
+<Description>Technical Details</Description>
+<URL>
+http://www.amazon.com/Aubrey-Organics-Honeysuckle-Moisturizing-Shampoo/dp/tech-data/B0006GZAKI%3FSubscriptionId%3DAKIAJASCQOZYRQT3ISNA%26tag%3Ds0cb54-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB0006GZAKI
+</URL>
+</ItemLink>
+<ItemLink>
+<Description>Add To Baby Registry</Description>
+<URL>
+http://www.amazon.com/gp/registry/baby/add-item.html%3Fasin.0%3DB0006GZAKI%26SubscriptionId%3DAKIAJASCQOZYRQT3ISNA%26tag%3Ds0cb54-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB0006GZAKI
+</URL>
+</ItemLink>
+<ItemLink>
+<Description>Add To Wedding Registry</Description>
+<URL>
+http://www.amazon.com/gp/registry/wedding/add-item.html%3Fasin.0%3DB0006GZAKI%26SubscriptionId%3DAKIAJASCQOZYRQT3ISNA%26tag%3Ds0cb54-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB0006GZAKI
+</URL>
+</ItemLink>
+<ItemLink>
+<Description>Add To Wishlist</Description>
+<URL>
+http://www.amazon.com/gp/registry/wishlist/add-item.html%3Fasin.0%3DB0006GZAKI%26SubscriptionId%3DAKIAJASCQOZYRQT3ISNA%26tag%3Ds0cb54-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB0006GZAKI
+</URL>
+</ItemLink>
+<ItemLink>
+<Description>Tell A Friend</Description>
+<URL>
+http://www.amazon.com/gp/pdp/taf/B0006GZAKI%3FSubscriptionId%3DAKIAJASCQOZYRQT3ISNA%26tag%3Ds0cb54-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB0006GZAKI
+</URL>
+</ItemLink>
+<ItemLink>
+<Description>All Customer Reviews</Description>
+<URL>
+http://www.amazon.com/review/product/B0006GZAKI%3FSubscriptionId%3DAKIAJASCQOZYRQT3ISNA%26tag%3Ds0cb54-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB0006GZAKI
+</URL>
+</ItemLink>
+<ItemLink>
+<Description>All Offers</Description>
+<URL>
+http://www.amazon.com/gp/offer-listing/B0006GZAKI%3FSubscriptionId%3DAKIAJASCQOZYRQT3ISNA%26tag%3Ds0cb54-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB0006GZAKI
+</URL>
+</ItemLink>
+</ItemLinks>
+<SalesRank>4470</SalesRank>
+<SmallImage>
+<URL>
+http://ecx.images-amazon.com/images/I/31ugJYdVZKL._SL75_.jpg
+</URL>
+<Height Units="pixels">75</Height>
+<Width Units="pixels">75</Width>
+</SmallImage>
+<MediumImage>
+<URL>
+http://ecx.images-amazon.com/images/I/31ugJYdVZKL._SL160_.jpg
+</URL>
+<Height Units="pixels">160</Height>
+<Width Units="pixels">160</Width>
+</MediumImage>
+<LargeImage>
+<URL>
+http://ecx.images-amazon.com/images/I/31ugJYdVZKL.jpg
+</URL>
+<Height Units="pixels">300</Height>
+<Width Units="pixels">300</Width>
+</LargeImage>
+<ImageSets>
+<ImageSet Category="primary">
+<SwatchImage>
+<URL>
+http://ecx.images-amazon.com/images/I/31ugJYdVZKL._SL30_.jpg
+</URL>
+<Height Units="pixels">30</Height>
+<Width Units="pixels">30</Width>
+</SwatchImage>
+<SmallImage>
+<URL>
+http://ecx.images-amazon.com/images/I/31ugJYdVZKL._SL75_.jpg
+</URL>
+<Height Units="pixels">75</Height>
+<Width Units="pixels">75</Width>
+</SmallImage>
+<ThumbnailImage>
+<URL>
+http://ecx.images-amazon.com/images/I/31ugJYdVZKL._SL75_.jpg
+</URL>
+<Height Units="pixels">75</Height>
+<Width Units="pixels">75</Width>
+</ThumbnailImage>
+<TinyImage>
+<URL>
+http://ecx.images-amazon.com/images/I/31ugJYdVZKL._SL110_.jpg
+</URL>
+<Height Units="pixels">110</Height>
+<Width Units="pixels">110</Width>
+</TinyImage>
+<MediumImage>
+<URL>
+http://ecx.images-amazon.com/images/I/31ugJYdVZKL._SL160_.jpg
+</URL>
+<Height Units="pixels">160</Height>
+<Width Units="pixels">160</Width>
+</MediumImage>
+<LargeImage>
+<URL>
+http://ecx.images-amazon.com/images/I/31ugJYdVZKL.jpg
+</URL>
+<Height Units="pixels">300</Height>
+<Width Units="pixels">300</Width>
+</LargeImage>
+</ImageSet>
+</ImageSets>
+<ItemAttributes>
+<Binding>Health and Beauty</Binding>
+<Brand>Aubrey Organics</Brand>
+<CatalogNumberList>
+<CatalogNumberListElement>624</CatalogNumberListElement>
+<CatalogNumberListElement>AO-1316</CatalogNumberListElement>
+<CatalogNumberListElement>749985035118</CatalogNumberListElement>
+<CatalogNumberListElement>35118</CatalogNumberListElement>
+</CatalogNumberList>
+<EAN>0890895530221</EAN>
+<EANList>
+<EANListElement>0890895530221</EANListElement>
+<EANListElement>0749985035118</EANListElement>
+</EANList>
+<Feature>
+Does Not Contain: Sodium Lauryl Sulfate, Parabens or Petrochemicals
+</Feature>
+<IsAdultProduct>0</IsAdultProduct>
+<IsAutographed>0</IsAutographed>
+<IsMemorabilia>0</IsMemorabilia>
+<ItemDimensions>
+<Height Units="hundredths-inches">276</Height>
+<Length Units="hundredths-inches">768</Length>
+<Weight Units="hundredths-pounds">70</Weight>
+<Width Units="hundredths-inches">169</Width>
+</ItemDimensions>
+<Label>Aubrey Organics</Label>
+<LegalDisclaimer>
+The products and the claims made about specific products on or through this site have not been evaluated by the United States Food and Drug Administration and are not approved to diagnose, treat, cure or prevent disease.
+</LegalDisclaimer>
+<ListPrice>
+<Amount>1048</Amount>
+<CurrencyCode>USD</CurrencyCode>
+<FormattedPrice>$10.48</FormattedPrice>
+</ListPrice>
+<Manufacturer>Aubrey Organics</Manufacturer>
+<Model>457</Model>
+<MPN>350</MPN>
+<NumberOfItems>1</NumberOfItems>
+<PackageDimensions>
+<Height Units="hundredths-inches">180</Height>
+<Length Units="hundredths-inches">760</Length>
+<Weight Units="hundredths-pounds">80</Weight>
+<Width Units="hundredths-inches">260</Width>
+</PackageDimensions>
+<PackageQuantity>1</PackageQuantity>
+<PartNumber>350</PartNumber>
+<ProductGroup>Beauty</ProductGroup>
+<ProductTypeName>BEAUTY</ProductTypeName>
+<Publisher>Aubrey Organics</Publisher>
+<Size>11 oz</Size>
+<Studio>Aubrey Organics</Studio>
+<Title>
+Aubrey Organics Honeysuckle Rose Moisturizing Shampoo, 11 oz
+</Title>
+<UPC>890895530221</UPC>
+<UPCList>
+<UPCListElement>890895530221</UPCListElement>
+<UPCListElement>749985035118</UPCListElement>
+</UPCList>
+</ItemAttributes>
+<OfferSummary>
+<LowestNewPrice>
+<Amount>719</Amount>
+<CurrencyCode>USD</CurrencyCode>
+<FormattedPrice>$7.19</FormattedPrice>
+</LowestNewPrice>
+<TotalNew>14</TotalNew>
+<TotalUsed>0</TotalUsed>
+<TotalCollectible>0</TotalCollectible>
+<TotalRefurbished>0</TotalRefurbished>
+</OfferSummary>
+<EditorialReviews>
+<EditorialReview>
+<Source>Product Description</Source>
+<Content>
+Honeysuckle Rose Moisturizing Shampoo by Aubrey Organics 11 oz Liquid Honeysuckle Rose Moisturizing Shampoo 11 oz Liquid Product For Dry Brittle Hair The sweet smell of success for your hair. Achieve ultra-softness and manageability with this moisture-intensive shampoo. Restorative herbal emollients rehydrate hair fiber to overcome dryness and brittleness and leave hair irresistibly fragrant and silky-soft. Also recommended for bleached or highlighted hair. Ingredients Aqua decyl glucoside sodium cocoyl hydrolyzed soy protein aloe barbadensis (aloe) leaf juice oryza sativa (rice) extract glucose xanthan gum lonicera caprifolium (honeysuckle) extract citric acid glycerin rosa rubignosa (Rosa Mosqueta) seed oil prunus amygdalus dulcis (sweet almond) oil citrus grandis (grapefruit) extract glucose oxidase lactoperoxidase panax ginseng root extract angelica archangelica extract chrysanthemum sinense flower extract magnolia biondii flower extract alcohol denat. (38b lavendar ) macadamia te
+</Content>
+<IsLinkSuppressed>0</IsLinkSuppressed>
+</EditorialReview>
+</EditorialReviews>
+</Item>
+<Item>
+<ASIN>B000ZMEW66</ASIN>
+<DetailPageURL>
+http://www.amazon.com/Aubrey-Organics-Hydrating-Shampoo-Chamomile/dp/B000ZMEW66%3FSubscriptionId%3DAKIAJASCQOZYRQT3ISNA%26tag%3Ds0cb54-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3DB000ZMEW66
+</DetailPageURL>
+<ItemLinks>
+<ItemLink>
+<Description>Technical Details</Description>
+<URL>
+http://www.amazon.com/Aubrey-Organics-Hydrating-Shampoo-Chamomile/dp/tech-data/B000ZMEW66%3FSubscriptionId%3DAKIAJASCQOZYRQT3ISNA%26tag%3Ds0cb54-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB000ZMEW66
+</URL>
+</ItemLink>
+<ItemLink>
+<Description>Add To Baby Registry</Description>
+<URL>
+http://www.amazon.com/gp/registry/baby/add-item.html%3Fasin.0%3DB000ZMEW66%26SubscriptionId%3DAKIAJASCQOZYRQT3ISNA%26tag%3Ds0cb54-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB000ZMEW66
+</URL>
+</ItemLink>
+<ItemLink>
+<Description>Add To Wedding Registry</Description>
+<URL>
+http://www.amazon.com/gp/registry/wedding/add-item.html%3Fasin.0%3DB000ZMEW66%26SubscriptionId%3DAKIAJASCQOZYRQT3ISNA%26tag%3Ds0cb54-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB000ZMEW66
+</URL>
+</ItemLink>
+<ItemLink>
+<Description>Add To Wishlist</Description>
+<URL>
+http://www.amazon.com/gp/registry/wishlist/add-item.html%3Fasin.0%3DB000ZMEW66%26SubscriptionId%3DAKIAJASCQOZYRQT3ISNA%26tag%3Ds0cb54-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB000ZMEW66
+</URL>
+</ItemLink>
+<ItemLink>
+<Description>Tell A Friend</Description>
+<URL>
+http://www.amazon.com/gp/pdp/taf/B000ZMEW66%3FSubscriptionId%3DAKIAJASCQOZYRQT3ISNA%26tag%3Ds0cb54-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB000ZMEW66
+</URL>
+</ItemLink>
+<ItemLink>
+<Description>All Customer Reviews</Description>
+<URL>
+http://www.amazon.com/review/product/B000ZMEW66%3FSubscriptionId%3DAKIAJASCQOZYRQT3ISNA%26tag%3Ds0cb54-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB000ZMEW66
+</URL>
+</ItemLink>
+<ItemLink>
+<Description>All Offers</Description>
+<URL>
+http://www.amazon.com/gp/offer-listing/B000ZMEW66%3FSubscriptionId%3DAKIAJASCQOZYRQT3ISNA%26tag%3Ds0cb54-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB000ZMEW66
+</URL>
+</ItemLink>
+</ItemLinks>
+<SalesRank>6467</SalesRank>
+<SmallImage>
+<URL>
+http://ecx.images-amazon.com/images/I/21FrWHeiwaL._SL75_.jpg
+</URL>
+<Height Units="pixels">75</Height>
+<Width Units="pixels">45</Width>
+</SmallImage>
+<MediumImage>
+<URL>
+http://ecx.images-amazon.com/images/I/21FrWHeiwaL._SL160_.jpg
+</URL>
+<Height Units="pixels">160</Height>
+<Width Units="pixels">97</Width>
+</MediumImage>
+<LargeImage>
+<URL>
+http://ecx.images-amazon.com/images/I/21FrWHeiwaL.jpg
+</URL>
+<Height Units="pixels">290</Height>
+<Width Units="pixels">175</Width>
+</LargeImage>
+<ImageSets>
+<ImageSet Category="primary">
+<SwatchImage>
+<URL>
+http://ecx.images-amazon.com/images/I/21FrWHeiwaL._SL30_.jpg
+</URL>
+<Height Units="pixels">30</Height>
+<Width Units="pixels">18</Width>
+</SwatchImage>
+<SmallImage>
+<URL>
+http://ecx.images-amazon.com/images/I/21FrWHeiwaL._SL75_.jpg
+</URL>
+<Height Units="pixels">75</Height>
+<Width Units="pixels">45</Width>
+</SmallImage>
+<ThumbnailImage>
+<URL>
+http://ecx.images-amazon.com/images/I/21FrWHeiwaL._SL75_.jpg
+</URL>
+<Height Units="pixels">75</Height>
+<Width Units="pixels">45</Width>
+</ThumbnailImage>
+<TinyImage>
+<URL>
+http://ecx.images-amazon.com/images/I/21FrWHeiwaL._SL110_.jpg
+</URL>
+<Height Units="pixels">110</Height>
+<Width Units="pixels">66</Width>
+</TinyImage>
+<MediumImage>
+<URL>
+http://ecx.images-amazon.com/images/I/21FrWHeiwaL._SL160_.jpg
+</URL>
+<Height Units="pixels">160</Height>
+<Width Units="pixels">97</Width>
+</MediumImage>
+<LargeImage>
+<URL>
+http://ecx.images-amazon.com/images/I/21FrWHeiwaL.jpg
+</URL>
+<Height Units="pixels">290</Height>
+<Width Units="pixels">175</Width>
+</LargeImage>
+</ImageSet>
+</ImageSets>
+<ItemAttributes>
+<Binding>Health and Beauty</Binding>
+<Brand>Aubrey Organics</Brand>
+<CatalogNumberList>
+<CatalogNumberListElement>749985087162</CatalogNumberListElement>
+</CatalogNumberList>
+<Color>default</Color>
+<Department>Personal Care</Department>
+<EAN>0749985087162</EAN>
+<EANList>
+<EANListElement>0749985087162</EANListElement>
+</EANList>
+<Feature>
+True to Nature Since 1967All-Natural IngredientsSulfate-Free Phthalate-FreeParaben-Free Cruelty-FreeGluten-FreeRefreshing formula lightly conditions as it cleanses for softness and brilliant shine
+</Feature>
+<Feature>Aubrey</Feature>
+<IsAdultProduct>0</IsAdultProduct>
+<IsAutographed>0</IsAutographed>
+<IsMemorabilia>0</IsMemorabilia>
+<ItemDimensions>
+<Weight Units="hundredths-pounds">110</Weight>
+</ItemDimensions>
+<Label>Aubrey Organics</Label>
+<ListPrice>
+<Amount>1498</Amount>
+<CurrencyCode>USD</CurrencyCode>
+<FormattedPrice>$14.98</FormattedPrice>
+</ListPrice>
+<Manufacturer>Aubrey Organics</Manufacturer>
+<Model>AUO87162</Model>
+<MPN>87B</MPN>
+<NumberOfItems>1</NumberOfItems>
+<PackageDimensions>
+<Height Units="hundredths-inches">180</Height>
+<Length Units="hundredths-inches">810</Length>
+<Weight Units="hundredths-pounds">115</Weight>
+<Width Units="hundredths-inches">310</Width>
+</PackageDimensions>
+<PackageQuantity>1</PackageQuantity>
+<PartNumber>87B</PartNumber>
+<ProductGroup>Beauty</ProductGroup>
+<ProductTypeName>BEAUTY</ProductTypeName>
+<Publisher>Aubrey Organics</Publisher>
+<Size>16 oz</Size>
+<Studio>Aubrey Organics</Studio>
+<Title>
+Aubrey Organics Hydrating Shampoo Normal Blue Chamomile -- 16 fl oz
+</Title>
+<UPC>749985087162</UPC>
+<UPCList>
+<UPCListElement>749985087162</UPCListElement>
+</UPCList>
+</ItemAttributes>
+<OfferSummary>
+<LowestNewPrice>
+<Amount>1152</Amount>
+<CurrencyCode>USD</CurrencyCode>
+<FormattedPrice>$11.52</FormattedPrice>
+</LowestNewPrice>
+<TotalNew>14</TotalNew>
+<TotalUsed>0</TotalUsed>
+<TotalCollectible>0</TotalCollectible>
+<TotalRefurbished>0</TotalRefurbished>
+</OfferSummary>
+<EditorialReviews>
+<EditorialReview>
+<Source>Product Description</Source>
+<Content>
+Blue Camomile Hydrating Shampoo by Aubrey Organics 16 oz Liquid Blue Camomile Hydrating Shampoo 16 oz Liquid Product Calm cool and collected. Give your hair a new attitude. Lather in softness and shine with this naturally hydrating shampoo made with exotic organic blue camomile and shea butter. Refreshing formula lightly conditions as it cleanses to leave hair full silky and manageable. Alternate with Camomile Luxurious Volumizing Shampoo for best results. Ingredients Deionized Water Coconut Oil-Corn Oil Soap Organic Aloe Vera Hydrolyzed Soy Protein (made from organic non-GMO soybeans) Carrageenan Organic Shea Butter Horsetail Extract Coltsfoot Extract Linoleic Acid (Vitamin F) Aubrey's Preservative (Citrus Seed Extract Vitamins A C and E) Organic Blue Camomile Oil. FEATURES BENEFITS Organic Blue Camomile Oil Conditions adds an elegant natural scent Organic Shea Butter Aloe Vera Improve hair texture add manageability shine Horsetail Extract Strengthens revitalizes Warnings Keep out of
+</Content>
+<IsLinkSuppressed>0</IsLinkSuppressed>
+</EditorialReview>
+</EditorialReviews>
+</Item>
+<Item>...</Item>
+<Item>...</Item>
+<Item>...</Item>
+<Item>...</Item>
+<Item>...</Item>
+<Item>...</Item>
+<Item>...</Item>
+<Item>...</Item>
+</Items>
+</ItemSearchResponse>
