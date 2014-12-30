@@ -3726,7 +3726,7 @@ a.post-thumbnail:hover {
 		position: absolute;
 		top: 0;
 		left: 0;
-		width: 182px;
+		width: 0px;
 		z-index: 2;
 	}
 
@@ -4054,7 +4054,7 @@ a.post-thumbnail:hover {
 	}
 
 	.site:before {
-		width: 222px;
+		width: 0px;
 	}
 
 	.search-box-wrapper,
