@@ -9285,7 +9285,7 @@ a {
 
 /* line 17, ../scss/_custom.scss */
 header {
-  height: 330px;
+/*  height: 330px; */ /*RF commented out this height because it was creating huge black space under twentyfourteen theme header navigation bar*/
 }
 
 /* line 23, ../scss/_custom.scss */
