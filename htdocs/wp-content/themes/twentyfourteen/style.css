@@ -10734,7 +10734,7 @@ span.review-count {
 
 /* line 1321, ../scss/_custom.scss */
 .product-review-module {
-  margin-top: 50px;
+ /* margin-top: 50px;*/
   font-family: "Proxima-Nova", sans-serif;
 }
 /* line 1324, ../scss/_custom.scss */
