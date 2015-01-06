@@ -1,0 +1,5 @@
+To manaage Wordpress using git, I will clone the Wordpress 
+mirror on github and then merge from it. In the future when
+there's a new release or updates to my version, I'll fetch 
+the appropriate tags or do a git pull from that mirror to
+stay up to date.
