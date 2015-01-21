@@ -1,0 +1,170 @@
+<!--********************Header************************-->
+
+    <header>
+      <div class="top">
+        <div class="account-dropdown">
+          <ul>
+            <li>Your Profile</li>
+            <li>Edit Profile</li>
+            <li>Your Order History</li>
+            <li>Your Notifications</li>
+            <li>Log Out</li>
+          </ul>
+        </div>
+        <div class="account-module">
+          <div class="account-photo">
+            <img src="stylesheets/img/waves.jpg">
+          </div>
+          <p class="account-user">Carron&nbsp;W.</p>
+        <div class="bag-holder">
+          <div class="shopping-bag">
+            <p class="bag-count">2</p>
+          </div>         
+        </div>
+        <p class="invite">Invite A Friend, Get 20 PT!</p> 
+
+        </div>  
+        <p class="login-signup">LOGIN&nbsp;&nbsp;|&nbsp;&nbsp;SIGNUP</p>
+        <form>
+          <input type="text">
+          <img src="stylesheets/img/search-glass.png">
+        <div class="search-back">
+          <p>Filter&nbsp;By:</p>
+
+          <select name="search-filter">
+                 <option value="Reviews" selected>Reviews</option>
+                <option value="Brands">Brands</option>
+                <option value="Editorial">Editorial</option>
+                <option value="People">People</option>
+              </select>
+              <button type="button">Search</button>  
+        </form>
+        </div>
+      </div>
+
+      <div class="bottom">
+     <div class="row">
+      <div class="small-12 columns">
+        <div class="small-5 columns">
+        <img id="main-logo" src="stylesheets/img/pt-main-logo.png">
+      </div>
+      <div class="small-1 columns">
+        <div class="divider"></div>
+      </div>
+       <div class="small-6 columns">
+        <ul>
+          <div class="small-3 columns"><li><img src="stylesheets/img/reviews-01.png"><p style="margin-left: 8px;">Reviews</p></li></div>
+          <div class="small-3 columns"><li><img src="stylesheets/img/editorial-01.png"><p>Editorial</p></li></div>
+          <div class="small-3 columns"><li><img src="stylesheets/img/community-01.png"><p style="margin-left: -4px;">Community</p></li></div>
+          <div class="small-3 columns"><li><img src="stylesheets/img/rewards-01.png"><p style="margin-left: 4px;">Exchange</p></li></div>
+        </ul>
+      </div>
+    </div>
+  </div>
+    <div class="navexpand-main" id="reviews-nav">
+       <ul>
+        <li>Hair&nbsp;&nbsp;|</li>
+        <li>&nbsp;&nbsp;Makeup&nbsp;&nbsp;|</li>
+        <li>&nbsp;&nbsp;Nails&nbsp;&nbsp;|</li>
+        <li>&nbsp;&nbsp;Skincare&nbsp;&nbsp;|</li>
+        <li>&nbsp;&nbsp;Bath&nbsp;&amp;&nbsp;Body&nbsp;&nbsp;|</li>
+        <li>&nbsp;&nbsp;Tools&nbsp;&amp;&nbsp;Accessories&nbsp;&nbsp;|</li>
+        <li>&nbsp;&nbsp;Fragrances&nbsp;&nbsp;|</li>
+        <li>&nbsp;&nbsp;Brands</li>
+      </ul>
+      </div>
+
+       <div class="navexpand-main" id="editorial-nav">
+       <ul>
+        <li>Hair&nbsp;&nbsp;|</li>
+        <li>&nbsp;&nbsp;Makeup&nbsp;&nbsp;|</li>
+        <li>&nbsp;&nbsp;Nails&nbsp;&nbsp;|</li>
+        <li>&nbsp;&nbsp;Skincare&nbsp;&nbsp;|</li>
+        <li>&nbsp;&nbsp;Bath&nbsp;&amp;&nbsp;Body&nbsp;&nbsp;|</li>
+        <li>&nbsp;&nbsp;Tools&nbsp;&amp;&nbsp;Accessories&nbsp;&nbsp;|</li>
+        <li>&nbsp;&nbsp;Fragrances&nbsp;&nbsp;|</li>
+        <li>&nbsp;&nbsp;Wellness&nbsp;&nbsp;|</li>
+        <li>&nbsp;&nbsp;Fashion&nbsp;&nbsp;|</li>
+        <li>&nbsp;&nbsp;News</li>
+      </ul>
+      </div>
+
+    <div class="navexpand-main" id="exchange-nav">
+       <ul>
+        <li>Hair&nbsp;&nbsp;|</li>
+        <li>&nbsp;&nbsp;Makeup&nbsp;&nbsp;|</li>
+        <li>&nbsp;&nbsp;Nails&nbsp;&nbsp;|</li>
+        <li>&nbsp;&nbsp;Skincare&nbsp;&nbsp;|</li>
+        <li>&nbsp;&nbsp;Bath&nbsp;&amp;&nbsp;Body&nbsp;&nbsp;|</li>
+        <li>&nbsp;&nbsp;Tools&nbsp;&amp;&nbsp;Accessories&nbsp;&nbsp;|</li>
+        <li>&nbsp;&nbsp;Fragrances</li>
+         </ul>
+      </div>
+
+     </div>
+    </header>
+
+
+
+<div class="off-canvas-wrap" data-offcanvas>
+  <div class="inner-wrap">
+    <nav class="tab-bar">
+      <section class="left-small">
+        <a class="left-off-canvas-toggle menu-icon" href="#"></a>
+      </section>
+      <section class="middle tab-bar-section">
+        <img class="logo-m" src="stylesheets/img/pt-main-logo.png">
+       </section>
+    </nav>
+    <div class="doily-border"></div>
+    <aside class="left-off-canvas-menu">
+      <ul class="off-canvas-list">
+        <li class="has-submenu" ><a id="search-li" href="#"><img style="width: 15px;" src="stylesheets/img/search_black.png">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|</a>
+          <ul class="left-submenu move-right">
+            <li class="back"><a href="#">Back</a></li>
+             <li>
+              <form>
+                <input type="text">
+                <form action="">
+              <select name="search-filter">
+                <option value="Reviews" selected>Reviews</option>
+                <option value="Brands">Brands</option>
+                <option value="Editorial">Editorial</option>
+                <option value="People">People</option>
+              </select>
+              </form>
+                <button type="button">Search</button>  
+              </form>
+            </li>
+          </ul>
+        </li>
+
+        <li><label><a href="#">Account</a></label></li>
+        <li><a href="#">Login&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Signup</a></li>
+        <li><a href="#">Log Out</a></li>
+        <li><a href="#">Your Bag</a></li>
+        <li><label><a href="#">Reviews</a></label></li>
+        <li><a href="#">Hair</a></li>
+        <li><a href="#">Makeup</a></li>
+        <li><a href="#">Nails</a></li>
+        <li><a href="#">Skincare</a></li>
+        <li><a href="#">Bath&nbsp;&amp;&nbsp;Body</a></li>
+        <li><a href="#">Tools&nbsp;/&nbsp;Brushes</a></li>
+        <li><a href="#">Fragrances</a></li>
+        <li><a href="#">Brands</a></li>
+        <li><label><a href="#">Editorial</a></label></li>
+        <li><label><a href="#">Community</a></label></li>
+        <li><label><a href="#">Exchange</a></label></li>
+      </ul>
+    </aside>
+    
+    <section class="main-section">
+      <!-- content goes here -->
+    </section>
+
+    <a class="exit-off-canvas"></a>
+
+    </div>
+  </div>
+</div>
+
