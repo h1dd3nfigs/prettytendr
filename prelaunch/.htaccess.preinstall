@@ -1,0 +1,6 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^prettytendr\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.prettytendr\.com$
+RewriteRule ^/?$ "http\:\/\/www\.prettytendr\.squarespace\.com\/" [R=301,L]
+
