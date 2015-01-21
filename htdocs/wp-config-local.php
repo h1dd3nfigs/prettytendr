@@ -33,6 +33,31 @@ define('DB_CHARSET', 'utf8');
 /** The Database Collate type. Don't change this if in doubt. */
 define('DB_COLLATE', '');
 
+
+// In an attempt to move all wordpress core files into a subdirectory
+// named "core", I added the constants below
+
+// The "Home" setting is the address you want people to type in their
+// browser to reach your WordPress blog.
+// The "Site URL" setting is the address where your 
+// WordPress core files reside.
+define('WP_HOME','http://localhost:8888/prettytendr/htdocs/core');
+define('WP_SITEURL', 'http://localhost:8888/prettytendr/htdocs/core');
+
+define( 'WP_CONTENT_DIR', dirname(__FILE__) . '/wp-content' );
+define( 'WP_CONTENT_URL', 'http://localhost:8888/prettytendr/htdocs/wp-content' );
+
+// Unsure about whether I need to also define the directory & URL 
+// for plugins folder if plugins folder is relative to wp-content
+// and I've already specified it above?
+define( 'WP_PLUGIN_DIR', dirname(__FILE__) . '/wp-content/plugins' );
+define( 'WP_PLUGIN_URL','http://localhost:8888/prettytendr/htdocs/wp-content/plugins' );
+
+// Commented out the definition of 'UPLOADS' constant because it was causing error
+// On the front-end, site was appending UPLOADS to WP_SITE_URL or WP_HOME,
+// thereby adding a '/core/' to the filepath and breaking images
+//define( 'UPLOADS', 'wp-content/uploads' );
+
 /**#@+
  * Authentication Unique Keys and Salts.
  *
