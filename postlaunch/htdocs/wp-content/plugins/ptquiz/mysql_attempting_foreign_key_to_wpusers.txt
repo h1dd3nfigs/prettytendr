@@ -1,0 +1,213 @@
+
+ALTER TABLE wp_beautyquiz
+ADD FOREIGN KEY usr_id (user_id)
+REFERENCES wp_users(id)
+ON DELETE CASCADE;
+
+
+
+ALTER TABLE wp_beautyquiz
+ADD CONSTRAINT name FOREIGN KEY usr_id (user_id)
+REFERENCES wp_users(id)
+ON DELETE CASCADE;
+
+
+
+only working query below
++-----------------------------------+
+CREATE TABLE child (
+    id INT, 
+    parent_id INT,
+    INDEX par_ind (parent_id),
+    FOREIGN KEY (parent_id) 
+        REFERENCES wp_beautyquiz (id)
+        ON DELETE CASCADE
+)ENGINE=INNODB;
++-----------------------------------+
+
+
+CREATE TABLE secondchild (
+    id INT, 
+    parent_id bigINT(20),
+    INDEX par_ind (parent_id),
+    FOREIGN KEY (parent_id) 
+        REFERENCES wp_users (id)
+        ON DELETE CASCADE
+) ENGINE=INNODB;
+
+
+CREATE TABLE secondchild (
+    id INT, 
+    parent_id bigINT(20),
+    INDEX par_ind1 (parent_id),
+    FOREIGN KEY (parent_id) 
+        REFERENCES wp_users (id)
+        ON DELETE CASCADE
+) ENGINE=INNODB;
+
+
+CREATE TABLE secondchild (
+    id INT, 
+    parent_id bigINT(20) NOT NULL,
+    INDEX par_ind1 (parent_id),
+    FOREIGN KEY (parent_id) 
+        REFERENCES wp_users (id)
+        ON DELETE CASCADE
+) ENGINE=INNODB;
+
+
+CREATE TABLE second_child (
+    id INT, 
+    parent_id bigint(20) NOT NULL,
+    INDEX par_ind1 (parent_id),
+    FOREIGN KEY (parent_id) 
+        REFERENCES wp_users (id)
+        ON DELETE CASCADE
+) ENGINE=INNODB;
+
+#1005 - Can't create table 'wordpresstreehouse.secondchild' (errno: 150) (Details…) 
+
+
+CREATE TABLE second_child (
+    id INT, 
+    parent_id bigint(20) NOT NULL,
+    INDEX par_ind2 (parent_id),
+    FOREIGN KEY (parent_id) 
+        REFERENCES wp_users (id)
+        ON DELETE CASCADE
+) ENGINE=INNODB;
+#1005 - Can't create table 'wordpresstreehouse.second_child' (errno: 150) (Details…) 
+
+CREATE TABLE Cchild (
+    id INT, 
+    parent_id INT,
+    INDEX par_ind2 (parent_id),
+    FOREIGN KEY (parent_id) 
+        REFERENCES wp_users (ID)
+        ON DELETE CASCADE
+)ENGINE=INNODB;
+
+CREATE TABLE Cchild (
+    id INT, 
+    parent_id INT,
+    INDEX par_ind2 (parent_id),
+    FOREIGN KEY (parent_id) 
+        REFERENCES wp_users (ID)
+        ON UPDATE CASCADE ON DELETE CASCADE
+)ENGINE=INNODB;
+
+CREATE TABLE Cchild (
+    id INT, 
+    parent_id INT,
+    PRIMARY KEY par_ind2 (parent_id),
+    FOREIGN KEY (parent_id) 
+        REFERENCES wp_users (ID)
+        ON UPDATE CASCADE ON DELETE CASCADE
+)ENGINE=INNODB;
+
+CREATE TABLE Cchild (
+    id INT, 
+    parent_id bigint(20) NOT NULL,
+    PRIMARY KEY par_ind2 (parent_id),
+    FOREIGN KEY (parent_id) 
+        REFERENCES wp_users (ID)
+        ON UPDATE CASCADE ON DELETE CASCADE
+)ENGINE=INNODB;
+
+CREATE TABLE Cchild (
+    id INT, 
+    parent_id bigint(20) NOT NULL,
+    PRIMARY KEY (id),
+    FOREIGN KEY (parent_id) 
+        REFERENCES wp_users (ID)
+        ON UPDATE CASCADE ON DELETE CASCADE
+)ENGINE=INNODB;
+
+CREATE TABLE Cchild (
+    id INT, 
+    parent_id bigint(20) NOT NULL,
+    FOREIGN KEY (parent_id) 
+        REFERENCES wp_users (ID)
+        ON UPDATE CASCADE ON DELETE CASCADE
+)ENGINE=INNODB;
+
+CREATE TABLE Cchild (
+    id INT, 
+    parent_id bigint(20) NOT NULL unsigned,
+    INDEX (id)
+    FOREIGN KEY (parent_id) 
+        REFERENCES wp_users (ID)
+        ON UPDATE CASCADE ON DELETE CASCADE
+)ENGINE=INNODB;
+#1064 - You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'unsigned,
+  
+
+CREATE TABLE Cchild (
+    id INT, 
+    parent_id bigint(20) UNSIGNED NOT NULL,
+    INDEX (id)
+    FOREIGN KEY (parent_id) 
+        REFERENCES wp_users (ID)
+        ON UPDATE CASCADE ON DELETE CASCADE
+)ENGINE=INNODB;
+#1064 - You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FOREIGN KEY
+
++-----------------------------------+
+CREATE TABLE Cchild (
+    id INT, 
+    parent_id bigint(20) UNSIGNED NOT NULL,
+    PRIMARY KEY (id),
+    FOREIGN KEY (parent_id) 
+        REFERENCES wp_users (ID)
+        ON UPDATE CASCADE ON DELETE CASCADE
+)ENGINE=INNODB;
++-----------------------------------+
+for the above to work, needed to specify that bigint(20) is unsigned 
+
+
+ALTER TABLE wp_beautyquiz
+ADD FOREIGN KEY (user_id)
+REFERENCES wp_users(id)
+ON UPDATE CASCADE ON DELETE CASCADE
+)ENGINE=INNODB;
+
+
+ALTER TABLE wp_beautyquiz
+ADD FOREIGN KEY (user_id)
+REFERENCES wp_users(id)
+ON UPDATE CASCADE ON DELETE CASCADE
+ENGINE=INNODB;
+
+ALTER TABLE wp_beautyquiz
+ADD FOREIGN KEY (user_id)
+REFERENCES wp_users(id)
+ON UPDATE CASCADE ON DELETE CASCADE ;
+
+
+ALTER TABLE wp_beautyquiz
+    ADD COLUMN user_id bigint(20) UNSIGNED NOT NULL,
+    ADD FOREIGN KEY (user_id)
+        REFERENCES wp_users(id)
+    ON UPDATE CASCADE ON DELETE CASCADE ;
+#1452 - Cannot add or update a child row: a foreign key constraint fails (`wordpresstreehouse`.`#sql-40f_d4`, CONSTRAINT `#sql-40f_d4_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `wp_users` (`ID`) ON DELETE CASCADE ON UPDATE CASCADE) 
+
++-----------------------------------+
+ALTER TABLE wp_beautyquiz
+    ADD COLUMN user_id bigint(20) UNSIGNED NOT NULL,
+    ADD FOREIGN KEY (user_id)
+        REFERENCES wp_users(id)
+    ON UPDATE CASCADE ON DELETE CASCADE ;
++-----------------------------------+
+query above works when the table doesn't already have rows
+
+ALTER TABLE wp_beautyquiz2
+    ADD COLUMN user_id bigint(20) UNSIGNED NOT NULL AFTER id,
+    ADD FOREIGN KEY (user_id)
+        REFERENCES wp_users(id)
+    ON UPDATE CASCADE ON DELETE CASCADE ;
+
+    ALTER TABLE wp_beauty_quiz2
+    ADD COLUMN user_id bigint(20) UNSIGNED NOT NULL AFTER id,
+    ADD FOREIGN KEY (user_id)
+        REFERENCES wp_users(id)
+    ON UPDATE CASCADE ON DELETE CASCADE ;
