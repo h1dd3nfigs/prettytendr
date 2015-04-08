@@ -1,7 +1,7 @@
 .htaccess
 wp-config.php
 
-#wp-config-local.php
+wp-config-local.php
 #temporarily removed wp-config-local since I'm still learning about
 #how it and .htaccess files work with redirecting
 
