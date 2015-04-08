@@ -1,6 +1,5 @@
 .htaccess
-wp-config.php
-wp-config-local.php
+wp-config*.php
 connect.inc.php
 
 wp-content/uploads/
