@@ -1,6 +1,6 @@
 .htaccess
 wp-config*.php
-connect.inc.php
+connect*.php
 
 wp-content/uploads/
 wp-content/blogs.dir/
